@@ -1,0 +1,111 @@
+# ==============================================
+# DocuMind AI — .gitignore
+# Node.js + Express (backend) | React + Vite (frontend)
+# ==============================================
+
+# ───────────────────────────────────────────
+# 🔐 Environment & Secrets
+# ───────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# ───────────────────────────────────────────
+# 📦 Dependencies
+# ───────────────────────────────────────────
+node_modules/
+client/node_modules/
+
+# ───────────────────────────────────────────
+# 🏗️ Build Output
+# ───────────────────────────────────────────
+# Vite / React build
+client/dist/
+client/build/
+
+# Backend build (if added later)
+dist/
+build/
+
+# ───────────────────────────────────────────
+# 📁 Uploaded Files (runtime uploads via Multer)
+# ───────────────────────────────────────────
+uploads/
+temp/
+tmp/
+
+# ───────────────────────────────────────────
+# 🪵 Logs
+# ───────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ───────────────────────────────────────────
+# 🧪 Test Coverage & Cache
+# ───────────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ───────────────────────────────────────────
+# ⚡ Vite / Bundler Cache
+# ───────────────────────────────────────────
+.vite/
+client/.vite/
+*.tsbuildinfo
+
+# ───────────────────────────────────────────
+# 🖥️ OS Generated Files
+# ───────────────────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ───────────────────────────────────────────
+# 💻 Editor & IDE
+# ───────────────────────────────────────────
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# ───────────────────────────────────────────
+# 🔒 Package Lock Files (keep one, ignore others)
+# ───────────────────────────────────────────
+# Uncomment if you only use npm:
+# yarn.lock
+# pnpm-lock.yaml
+
+# ───────────────────────────────────────────
+# 🗂️ Misc
+# ───────────────────────────────────────────
+*.pem
+*.key
+*.cert
+.cache/
+.parcel-cache/

@@ -1,0 +1,35 @@
+# Requirements
+
+## System
+Node.js >= 18.x LTS
+npm >= 9.x
+OpenAI API Key
+
+## Backend
+express
+cors
+multer
+openai
+pdf-parse
+mammoth
+jszip
+dotenv
+
+## Frontend
+react
+react-dom
+lucide-react
+vite
+@vitejs/plugin-react
+tailwindcss
+postcss
+autoprefixer
+
+## Environment
+OPENAI_API_KEY
+PORT
+
+## File Formats
+.pdf
+.docx
+.pptx

@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbars for Dark Mode */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Typing Indicator Animation */
+@keyframes pulse-blink {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-dot-1 {
+  animation: pulse-blink 1.4s infinite both;
+}
+
+.animate-dot-2 {
+  animation: pulse-blink 1.4s infinite both 0.2s;
+}
+
+.animate-dot-3 {
+  animation: pulse-blink 1.4s infinite both 0.4s;
+}
