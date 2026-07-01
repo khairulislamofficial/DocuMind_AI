@@ -23,7 +23,7 @@ router.post("/", async (req, res) => {
     const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
 
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.0-flash-lite",
+      model: "gemini-2.5-flash",
       // System instruction: document context + strict rules
       systemInstruction: buildPrompt(extractedText)
     });

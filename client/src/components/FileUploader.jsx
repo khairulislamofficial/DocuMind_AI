@@ -95,7 +95,7 @@ export default function FileUploader({ onUploadSuccess, isServerWarming }) {
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-400 mb-4">
             <span className="flex h-2 w-2 rounded-full bg-brand animate-ping"></span>
-            Powered by Gemini 2.0 Flash
+            Powered by Gemini 2.5 Flash
           </div>
           <h1 className="text-5xl font-extrabold tracking-tight text-white mb-3 bg-gradient-to-r from-brand-light via-brand to-violet-500 bg-clip-text text-transparent">
             DocuMind AI
